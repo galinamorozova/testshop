@@ -1,0 +1,39 @@
+.basketContainerShown, .basketContainerClose {
+  width: 30%;
+  min-width: 450px;
+  background-color: white;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: tranform 0.3s ease-in-out;
+}
+.basketContainerClose {
+  right: -300px;
+  transform: translate(-40%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.closeIcon {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.basketItem {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pic {
+  width: 80px;
+  border-radius: 5px;
+}
+
+.list {
+  width: 100%;
+}

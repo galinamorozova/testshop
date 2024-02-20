@@ -1,0 +1,21 @@
+.gridContainer {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  cursor: pointer;
+  img {
+    margin: 3px 0 0 5px;
+  }
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+}

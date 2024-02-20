@@ -1,0 +1,16 @@
+.button {
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(124 172 199);
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+  }
+  &:active {
+    background-color: #4e4e5b;
+  }
+}
