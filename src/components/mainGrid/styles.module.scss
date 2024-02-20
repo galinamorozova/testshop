@@ -8,6 +8,7 @@
 .sort {
   display: flex;
   align-items: center;
+  justify-content: center;
   max-width: 1000px;
   margin: auto;
   cursor: pointer;
@@ -18,4 +19,9 @@
 
 .arrowUp {
   transform: rotate(180deg);
+}
+
+.itemWrapper {
+  display: flex;
+  justify-content: center;
 }

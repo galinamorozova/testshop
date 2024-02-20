@@ -79,7 +79,7 @@ const MainGrid = ({type}) => {
                     (products().product.data && products().product.data.length > 0) &&
                     sortData(products().product.data, title, sort).map(f => {
                         return (
-                            <div key={Math.random()}>
+                            <div key={Math.random()} className={styles.itemWrapper}>
                                 <ItemCard data={f}/>
                             </div>
                         )
